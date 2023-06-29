@@ -1,0 +1,118 @@
+[2023-06-27 17:43:29,026][request_log.py:53][INFO][17644] - [{'userId': 1, 'userName': 'jb', 'token': 'cec2cb2181c24ca6b4754fe6f1765f64'}][127.0.0.1][http://localhost:5000/user/get][2023-06-27 17:43:26.940865][22232][17644][{'id': 1}][{
+  "code": 0,
+  "data": {
+    "createTime": "Tue, 27 Jun 2023 16:14:12 GMT",
+    "id": 1,
+    "isDeleted": false,
+    "password": "123456",
+    "realName": "jianbin",
+    "updateTime": "Tue, 27 Jun 2023 16:14:12 GMT",
+    "userName": "jb"
+  },
+  "msg": "\u6210\u529f"
+}
+][2023-06-27 17:43:29.026417][02.085552]
+[2023-06-27 17:50:37,004][request_log.py:53][INFO][25484] - [{'userId': 1, 'userName': 'jb', 'token': 'cec2cb2181c24ca6b4754fe6f1765f64'}][127.0.0.1][http://localhost:5000/user/get][2023-06-27 17:50:34.927287][27056][25484][{'id': 1}][{
+  "code": 0,
+  "data": {
+    "createTime": "Tue, 27 Jun 2023 16:14:12 GMT",
+    "id": 1,
+    "isDeleted": false,
+    "password": "123456",
+    "realName": "jianbin",
+    "updateTime": "Tue, 27 Jun 2023 16:14:12 GMT",
+    "userName": "jb"
+  },
+  "msg": "\u6210\u529f"
+}
+][2023-06-27 17:50:37.004535][02.077248]
+[2023-06-27 17:50:51,023][request_log.py:53][INFO][26192] - [{'userId': 1, 'userName': 'jb', 'token': 'cec2cb2181c24ca6b4754fe6f1765f64'}][127.0.0.1][http://localhost:5000/user/get][2023-06-27 17:50:50.922635][27056][26192][{'id': 1}][{
+  "code": 0,
+  "data": {
+    "createTime": "Tue, 27 Jun 2023 16:14:12 GMT",
+    "id": 1,
+    "isDeleted": false,
+    "password": "123456",
+    "realName": "jianbin",
+    "updateTime": "Tue, 27 Jun 2023 16:14:12 GMT",
+    "userName": "jb"
+  },
+  "msg": "\u6210\u529f"
+}
+][2023-06-27 17:50:51.023901][00.101266]
+[2023-06-27 19:11:02,137][request_log.py:53][INFO][21612] - [{'userId': 1, 'userName': 'jb', 'token': 'cec2cb2181c24ca6b4754fe6f1765f64'}][127.0.0.1][http://localhost:5000/user/get][2023-06-27 19:10:59.971392][26652][21612][{'id': 1}][{
+  "code": 0,
+  "data": {
+    "createTime": "Tue, 27 Jun 2023 16:14:12 GMT",
+    "id": 1,
+    "isDeleted": false,
+    "password": "123456",
+    "realName": "jianbin",
+    "updateTime": "Tue, 27 Jun 2023 16:14:12 GMT",
+    "userName": "jb"
+  },
+  "msg": "\u6210\u529f"
+}
+][2023-06-27 19:11:02.137335][02.165943]
+[2023-06-27 19:11:07,274][__init__.py:38][ERROR][9732] - GlobalErrorEnum.GL99990403
+[2023-06-27 19:11:07,275][request_log.py:56][INFO][9732] - [][127.0.0.1][http://localhost:5000/user/get][2023-06-27 19:11:07.273641][26652][9732][{'id': 1}][{
+  "code": 99990403,
+  "msg": "token\u8fc7\u671f\u6216\u4e0d\u5b58\u5728"
+}
+][2023-06-27 19:11:07.274899][00.001258]
+[2023-06-28 10:29:23,090][user_controller.py:144][INFO][11212] - [1][jb][登录系统]
+[2023-06-28 10:29:25,145][request_log.py:56][INFO][11212] - [][127.0.0.1][http://localhost:5000/user/login][2023-06-28 10:29:23.041156][26208][11212][{'userName': 'jb', 'password': '123456'}][{
+  "code": 0,
+  "data": {
+    "token": "32472eae49374971b58f104982661529",
+    "userId": 1,
+    "userName": "jb"
+  },
+  "msg": "\u6210\u529f"
+}
+][2023-06-28 10:29:25.145553][02.104397]
+[2023-06-28 10:43:10,873][__init__.py:38][ERROR][3248] - GlobalErrorEnum.GL99990403
+[2023-06-28 10:43:10,874][request_log.py:56][INFO][3248] - [][127.0.0.1][http://localhost:5000/user/save][2023-06-28 10:43:08.803370][26680][3248][{'userName': 'admin', 'realName': 'admin', 'password': '123456', 'confirmPassword': '123456'}][{
+  "code": 99990403,
+  "msg": "token\u8fc7\u671f\u6216\u4e0d\u5b58\u5728"
+}
+][2023-06-28 10:43:10.874725][02.071355]
+[2023-06-28 10:43:23,544][user_controller.py:144][INFO][2624] - [1][jb][登录系统]
+[2023-06-28 10:43:23,545][request_log.py:56][INFO][2624] - [][127.0.0.1][http://localhost:5000/user/login][2023-06-28 10:43:23.516288][26680][2624][{'userName': 'jb', 'password': '123456'}][{
+  "code": 0,
+  "data": {
+    "token": "ae193cb0e6c84b879baf55d0dc3dbda5",
+    "userId": 1,
+    "userName": "jb"
+  },
+  "msg": "\u6210\u529f"
+}
+][2023-06-28 10:43:23.545710][00.029422]
+[2023-06-28 10:43:26,115][__init__.py:38][ERROR][23356] - GlobalErrorEnum.GL99990403
+[2023-06-28 10:43:26,116][request_log.py:56][INFO][23356] - [][127.0.0.1][http://localhost:5000/user/save][2023-06-28 10:43:26.114330][26680][23356][{'userName': 'admin', 'realName': 'admin', 'password': '123456', 'confirmPassword': '123456'}][{
+  "code": 99990403,
+  "msg": "token\u8fc7\u671f\u6216\u4e0d\u5b58\u5728"
+}
+][2023-06-28 10:43:26.116967][00.002637]
+[2023-06-28 10:43:32,543][user_controller.py:144][INFO][24176] - [1][jb][登录系统]
+[2023-06-28 10:43:32,544][request_log.py:56][INFO][24176] - [][127.0.0.1][http://localhost:5000/user/login][2023-06-28 10:43:32.539885][26680][24176][{'userName': 'jb', 'password': '123456'}][{
+  "code": 0,
+  "data": {
+    "token": "cb24eb423d3b471993e0a6005bc6444b",
+    "userId": 1,
+    "userName": "jb"
+  },
+  "msg": "\u6210\u529f"
+}
+][2023-06-28 10:43:32.544256][00.004371]
+[2023-06-28 10:43:35,406][__init__.py:38][ERROR][4956] - GlobalErrorEnum.GL99990403
+[2023-06-28 10:43:35,406][request_log.py:56][INFO][4956] - [][127.0.0.1][http://localhost:5000/user/save][2023-06-28 10:43:35.406147][26680][4956][{'userName': 'admin', 'realName': 'admin', 'password': '123456', 'confirmPassword': '123456'}][{
+  "code": 99990403,
+  "msg": "token\u8fc7\u671f\u6216\u4e0d\u5b58\u5728"
+}
+][2023-06-28 10:43:35.406256][00.000109]
+[2023-06-28 10:43:59,443][request_log.py:53][INFO][26632] - [{'userId': 1, 'userName': 'jb', 'token': 'cb24eb423d3b471993e0a6005bc6444b'}][127.0.0.1][http://localhost:5000/user/save][2023-06-28 10:43:59.407159][26680][26632][{'userName': 'admin', 'realName': 'admin', 'password': '123456', 'confirmPassword': '123456'}][{
+  "code": 0,
+  "msg": "\u6dfb\u52a0\u7528\u6237\u6210\u529f"
+}
+][2023-06-28 10:43:59.443576][00.036417]

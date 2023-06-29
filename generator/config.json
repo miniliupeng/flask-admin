@@ -1,0 +1,37 @@
+{
+    "targetProject": "",
+    "templates": [
+        {
+            "templateFile": "model.ftl",
+            "targetPath": "models/",
+            "targetFileName": "{{table.shortTableName}}.py",
+            "selected": true,
+            "covered": true,
+            "encoding": "utf-8"
+        },
+        {
+            "templateFile": "validator.ftl",
+            "targetPath": "validators/",
+            "targetFileName": "{{table.shortTableName}}_validator.py",
+            "selected": true,
+            "covered": true,
+            "encoding": "utf-8"
+        },
+        {
+            "templateFile": "service.ftl",
+            "targetPath": "services/",
+            "targetFileName": "{{table.shortTableName}}_service.py",
+            "selected": true,
+            "covered": true,
+            "encoding": "utf-8"
+        },
+        {
+            "templateFile": "controller.ftl",
+            "targetPath": "controllers/",
+            "targetFileName": "{{table.shortTableName}}_controller.py",
+            "selected": true,
+            "covered": true,
+            "encoding": "utf-8"
+        }
+    ]
+}
